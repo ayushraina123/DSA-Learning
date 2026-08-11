@@ -91,8 +91,6 @@ public class GroupAnagrams {
 
     public List<List<String>> groupAnagrams(String[] strs) {
 
-        List<List<String>> result = new ArrayList<>();
-
         // Maps a unique frequency representation of a word
         // to all words having the same character frequencies.
         Map<String, List<String>> valueMap = new HashMap<>();
@@ -117,8 +115,6 @@ public class GroupAnagrams {
         }
 
         // Collect all grouped anagrams.
-        result.addAll(valueMap.values());
-
-        return result;
+        return new ArrayList<>(valueMap.values());
     }
 }
