@@ -1,10 +1,5 @@
 package com.dsa.phase2.slidingWindow;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 /**
  * ==========================================================
  * Pattern    : Sliding Window
