@@ -313,15 +313,6 @@ package com.dsa.phase4.binarySearchTree;
  * - Balanced tree: O(log N).
  * - Skewed tree: O(N).
  */
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 public class ValidateBinarySearchTree {
 
